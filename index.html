@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body style="background-color: aqua;">
+    <div class="container">
+        <h1>Currency Convertor</h1>
+            <div class="conversion">
+                <div class="amount">
+                    <p>Amount</p>
+                    <input id="inp" style="font-weight: 800; font-size: 25px;background-color: transparent;" type="number" value="100">
+                </div>
+                <div class="from">
+                    <div class="one">
+                        <p>From</p>
+                        <img id="fromImage" src="https://flagsapi.com/US/flat/64.png">
+                    </div>
+                    <div class="sec">
+                        <select id="From" onchange="changeFlag()">
+                        </select>
+                    </div>
+                </div>
+                <div class="from">
+                    <div class="one">
+                        <p>To</p>
+                        <img id="toImage" src="https://flagsapi.com/US/flat/64.png">
+                    </div>
+                    <div class="sec">
+                        <select id="To" onchange="changeFlag()">
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <div class="but-container">
+                <p id="ans">Exchange Rate Result</p>
+                <button id="btn" class="but">Get Exchange Rate</button>
+            </div>
+    </div>
+    </div>
+    <script src="./codes.js"></script>
+    <script src="./Practice.js"></script>
+</body>
+</html>

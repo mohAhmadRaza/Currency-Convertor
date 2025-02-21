@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    outline: none;
+    border: 0;
+    scroll-behavior: smooth;
+}
+
+.container h1 {
+    text-align: center;
+}
+
+.container {
+    margin: auto;
+    width: 80%;
+    padding-top: 200px;
+}
+
+.conversion {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.from {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;;
+    padding: 15px 15px;
+    padding-bottom: 20px;
+    width: 33%;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 10px;
+}
+
+.one {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 15%;
+}
+
+.sec select{
+    font-size: 20px;
+    font-weight: 700;
+    background-color: transparent;
+    width: 100%;
+}
+
+.one img {
+    width: 30px;
+    height: auto;
+    border-radius: 100%;
+}
+
+.sec {
+    width: 90%;
+}
+
+.amount {
+    width: 33%;
+    border-radius: 10px;
+    border: 1px solid rgb(0, 0, 0);
+    font-weight: 600;
+    font-size: 20px;
+    padding: 10px 10px;
+}
+
+.sec select span{
+    color: rgb(133, 133, 133);
+}
+
+.but {
+    padding: 10px 10px;
+    margin-top: 20px;
+    background-color: black;
+    color: white;
+    font-weight: 400;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.but:hover {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+
+.but-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.but-container p {
+    padding: 10px 10px;
+    margin-top: 20px;
+    color: black;
+    font-weight: 700;
+    font-size: 20px;
+}
